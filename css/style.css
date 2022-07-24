@@ -1,0 +1,93 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+    width: 80%;
+    margin: 20px auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header a img{
+    width: 50px;
+    margin-top: 5px;
+    
+}
+
+header ul  {
+    display: inline-block;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    transition: 0.9s ease;
+}
+header ul li a:hover{
+    color:black
+}
+.section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content{
+    width: 40%;
+    /* margin-top: 100px; */
+    text-align: center;
+    color: white;
+}
+.content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+.content p span {
+    color: yellow;
+}
+.content button{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    /* background-color: white */
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.image {
+    width: 30%;
+}
+.image img{
+    height: 400px;
+}
+
+.iphone-icone{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.iphone-icone img{
+    width: 50px;  
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.iphone-icone img:hover{
+    transform: scale(1.3);
+}
